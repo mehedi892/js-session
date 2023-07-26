@@ -23,10 +23,12 @@ let numberType = 12;
 
 let BooleanType = true;
 
-let objectType = {'firstName':'abc','age':20, 'jobStatus': true};
+let objectType = {'persion1':{'firstName':'abc','age':20, 'jobStatus': true},
+                'persion2':{'firstName':'abc','age':20, 'jobStatus': true},
+                'persion3':{'firstName':'abc','age':20, 'jobStatus': true,'address':{
+                    
+                }
+            },
+    };
 
 
-
-
-
-console.log(UndefinedType)
